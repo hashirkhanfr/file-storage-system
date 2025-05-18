@@ -43,6 +43,7 @@ Directory Entry Size: 500 byte
 ## 5. System Architecture
 
 The virtual file system divides the 10MB memory space into three major sections:
+![Image 1](images/image_1.png)
 
 ## 5.1 Directory Section
 
@@ -93,6 +94,7 @@ vector<char> data;    // Block data using vector instead of raw array
 };
 
 ## 6.3 FileSystem Class
+![Image 2](images/image_2.png)
 
 ## 7. Key Features
 
@@ -170,6 +172,3 @@ Implement defragmentation and compaction
 
 This virtual file system provides a complete simulation of low-level file system mechanics within a 10MB memory buffer. It showcases core principles such as block allocation, metadata management, persistence, and file chaining. The design emphasizes clarity and educational value, making it suitable as a teaching tool or a foundation for further experimentation.
 
-![Image 1](images/image_2.png)
-
-![Image 2](images/image_1.png)
